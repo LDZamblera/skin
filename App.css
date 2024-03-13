@@ -213,25 +213,29 @@ section{
 .standards-section{
   text-align: center;
 }
-footer{
+footer {
   margin-top: 11rem;
-  background-color: #050505;
+  background-color: #a2a2f7;
   color: rgb(255, 255, 255);
-  padding: 6rem 5rem 1rem 5rem;
-  font-size: 1rem;
-  /*font-family: 'Nunito Sans', sans-serif;*/
+  padding: 3rem 5rem 1rem 5rem;
+  font-size: 3rem; /* Ajusta el tamaño según tus necesidades */
+  /* Añade negrita al texto */
+  /* font-family: 'Nunito Sans', sans-serif; */
 }
 
-.flex-icons{
+
+
+.flex-icons {
+
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+  font-size: 1.5rem; 
+
 }
 
-
-
-
-
-
+.flex-icons:hover{
+  font-size: 1.6rem;
+}
 
 
 
@@ -309,6 +313,8 @@ footer{
   .column2 {
     order: 2; /* Change the order for mobile view */
   }
+
+  
   footer{
     text-align: left;
     padding: 4rem 2rem 1rem 2rem;
